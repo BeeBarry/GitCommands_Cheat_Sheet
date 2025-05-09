@@ -1,6 +1,5 @@
 Exempel på 30 Git-kommandon
 
-
 git init - Initierar ett nytt Git-repository i aktuell mapp.
 
 git clone <url> - Klonar ett existerande Git-repository från t.ex. GitHub.
