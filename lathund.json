@@ -59,3 +59,63 @@
     "command": "git push",
     "description": "Skickar lokala commits till fjärrrepositoryt."
   },
+  {
+    "command": "git remote -v",
+    "description": "Visar kopplade fjärrrepositoryn."
+  },
+  {
+    "command": "git remote add origin <url>",
+    "description": "Lägger till ett fjärrrepository som heter 'origin'."
+  },
+  {
+    "command": "git reset <fil>",
+    "description": "Tar bort en fil från staging area."
+  },
+  {
+    "command": "git reset --hard",
+    "description": "Återställer allt till senaste commit, inklusive arbetskopia."
+  },
+  {
+    "command": "git rm <fil>",
+    "description": "Tar bort en fil från både Git och filsystemet."
+  },
+  {
+    "command": "git stash",
+    "description": "Sparar tillfälligt undan ändringar som inte är commitade."
+  },
+  {
+    "command": "git stash pop",
+    "description": "Återställer senaste undanlagda ändringar."
+  },
+  {
+    "command": "git tag",
+    "description": "Visar alla taggar i repositoryt."
+  },
+  {
+    "command": "git tag <tag>",
+    "description": "Skapar en ny tagg för nuvarande commit."
+  },{
+    "command": "git fetch",
+    "description": "Hämtar uppdateringar från fjärrrepositoryt utan att slå ihop dem."
+  },
+  {
+    "command": "git show",
+    "description": "Visar detaljerad information om en commit eller annan Git-objekt."
+  },
+  {
+    "command": "git cherry-pick <commit>",
+    "description": "Applicerar en specifik commit från en annan branch."
+  },
+  {
+    "command": "git revert <commit>",
+    "description": "Skapar en ny commit som backar en tidigare."
+  },
+  {
+    "command": "git blame <fil>",
+    "description": "Visar vem som gjorde varje radändring i en fil."
+  },
+  {
+    "command": "git config --global user.name \"namn\"",
+    "description": "Sätter globalt användarnamn för Git."
+  }
+]
