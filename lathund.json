@@ -22,4 +22,8 @@
   {
     "command": "git stash",
     "description": "Sparar tillfälligt undan ändringar som inte är commitade."
+  },
+  {
+    "command": "git stash pop",
+    "description": "Återställer senaste undanlagda ändringar."
   }
