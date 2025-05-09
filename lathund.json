@@ -49,4 +49,8 @@
   {
     "command": "git revert <commit>",
     "description": "Skapar en ny commit som backar en tidigare."
+  },
+  {
+    "command": "git blame <fil>",
+    "description": "Visar vem som gjorde varje radändring i en fil."
   }
