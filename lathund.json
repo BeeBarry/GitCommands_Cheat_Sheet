@@ -55,3 +55,7 @@
     "command": "git pull",
     "description": "Hämtar och slår ihop ändringar från fjärrrepositoryt."
   },
+  {
+    "command": "git push",
+    "description": "Skickar lokala commits till fjärrrepositoryt."
+  },
