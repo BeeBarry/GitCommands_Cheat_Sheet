@@ -1,0 +1,62 @@
+Exempel på 30 Git-kommandon
+
+
+git init - Initierar ett nytt Git-repository i aktuell mapp.
+
+git clone <url> - Klonar ett existerande Git-repository från t.ex. GitHub.
+
+git status - Visar status för förändrade, staged och ostaged filer.
+
+git add <fil> - Lägger till en fil till staging area inför commit.
+
+git add . - Lägger till alla ändrade filer till staging area.
+
+git commit -m "meddelande" - Skapar en commit med ett meddelande.
+
+git log - Visar historik över commits i projektet.
+
+git diff - Visar skillnader mellan arbetskopia och staging eller senaste commit.
+
+git branch - Visar alla lokala brancher.
+
+git branch <namn> - Skapar en ny branch med angivet namn.
+
+git checkout <branch> - Byter till angiven branch.
+
+git checkout -b <namn> - Skapar och byter till en ny branch direkt.
+
+git merge <branch> - Slår ihop en annan branch med aktuell branch.
+
+git pull - Hämtar och slår ihop ändringar från fjärrrepositoryt.
+
+git push - Skickar lokala commits till fjärrrepositoryt.
+
+git remote -v - Visar kopplade fjärrrepositoryn.
+
+git remote add origin <url> - Lägger till ett fjärrrepository som heter 'origin'.
+
+git reset <fil> - Tar bort en fil från staging area.
+
+git reset --hard - Återställer allt till senaste commit, inklusive arbetskopia.
+
+git rm <fil> - Tar bort en fil från både Git och filsystemet.
+
+git stash - Sparar tillfälligt undan ändringar som inte är commitade.
+
+git stash pop - Återställer senaste undanlagda ändringar.
+
+git tag - Visar alla taggar i repositoryt.
+
+git tag <tag> - Skapar en ny tagg för nuvarande commit.
+
+git fetch - Hämtar uppdateringar från fjärrrepositoryt utan att slå ihop dem.
+
+git show - Visar detaljerad information om en commit eller annan Git-objekt.
+
+git cherry-pick <commit> - Applicerar en specifik commit från en annan branch.
+
+git revert <commit> - Skapar en ny commit som backar en tidigare.
+
+git blame <fil> - Visar vem som gjorde varje radändring i en fil.
+
+git config --global user.name "namn" - Sätter globalt användarnamn för Git.
