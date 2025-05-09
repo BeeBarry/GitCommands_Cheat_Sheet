@@ -1,0 +1,27 @@
+git remote add origin <url> - Lägger till ett fjärrrepository som heterr 'origin'.
+
+git reset <fil> - Tar bort en fil från staging area.
+
+git reset --hard - Återställer allt till senaste commit, inklusive arbetskopia.
+
+git rm <fil> - Tar bort en fil från både Git och filsystemet.
+
+git stash - Sparar tillfälligt undan ändringar som inte är commitade.
+
+git stash pop - Återställer senaste undanlagda ändringar.
+
+git tag - Visar alla taggar i repositoryt.
+
+git tag <tag> - Skapar en ny tagg för nuvarande commit.
+
+git fetch - Hämtar uppdateringar från fjärrrepositoryt utan att slå ihop dem.
+
+git show - Visar detaljerad information om en commit eller annan Git-objekt.
+
+git cherry-pick <commit> - Applicerar en specifik commit från en annan branch.
+
+git revert <commit> - Skapar en ny commit som backar en tidigare.
+
+git blame <fil> - Visar vem som gjorde varje radändring i en fil.
+
+git config --global user.name "namn" - Sätter globalt användarnamn för Git.
