@@ -23,3 +23,7 @@
     "command": "git commit -m \"meddelande\"",
     "description": "Skapar en commit med ett meddelande."
   },
+  {
+    "command": "git log",
+    "description": "Visar historik över commits i projektet."
+  },
