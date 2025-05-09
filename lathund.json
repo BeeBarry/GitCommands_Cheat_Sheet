@@ -34,4 +34,7 @@
   {
     "command": "git tag <tag>",
     "description": "Skapar en ny tagg för nuvarande commit."
+  },{
+    "command": "git fetch",
+    "description": "Hämtar uppdateringar från fjärrrepositoryt utan att slå ihop dem."
   }
