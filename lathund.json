@@ -41,4 +41,8 @@
   {
     "command": "git show",
     "description": "Visar detaljerad information om en commit eller annan Git-objekt."
+  },
+  {
+    "command": "git cherry-pick <commit>",
+    "description": "Applicerar en specifik commit från en annan branch."
   }
