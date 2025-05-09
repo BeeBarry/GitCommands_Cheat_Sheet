@@ -45,4 +45,8 @@
   {
     "command": "git cherry-pick <commit>",
     "description": "Applicerar en specifik commit från en annan branch."
+  },
+  {
+    "command": "git revert <commit>",
+    "description": "Skapar en ny commit som backar en tidigare."
   }
