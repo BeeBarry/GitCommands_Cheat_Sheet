@@ -18,4 +18,8 @@
   {
     "command": "git rm <fil>",
     "description": "Tar bort en fil från både Git och filsystemet."
+  },
+  {
+    "command": "git stash",
+    "description": "Sparar tillfälligt undan ändringar som inte är commitade."
   }
