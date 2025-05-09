@@ -53,4 +53,9 @@
   {
     "command": "git blame <fil>",
     "description": "Visar vem som gjorde varje radändring i en fil."
+  },
+  {
+    "command": "git config --global user.name \"namn\"",
+    "description": "Sätter globalt användarnamn för Git."
   }
+]
