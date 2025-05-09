@@ -3,4 +3,8 @@
     "command": "git init",
     "description": "Initierar ett nytt Git-repository i aktuell mapp."
   },
+  {
+    "command": "git clone <url>",
+    "description": "Klonar ett existerande Git-repository från t.ex. GitHub."
+  },
   
