@@ -26,4 +26,8 @@
   {
     "command": "git stash pop",
     "description": "Återställer senaste undanlagda ändringar."
+  },
+  {
+    "command": "git tag",
+    "description": "Visar alla taggar i repositoryt."
   }
