@@ -15,4 +15,7 @@
     "command": "git add <fil>",
     "description": "Lägger till en fil till staging area inför commit."
   },
- 
+  {
+    "command": "git add .",
+    "description": "Lägger till alla ändrade filer till staging area."
+  },
