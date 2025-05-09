@@ -6,4 +6,8 @@
   {
     "command": "git remote add origin <url>",
     "description": "Lägger till ett fjärrrepository som heter 'origin'."
+  },
+  {
+    "command": "git reset <fil>",
+    "description": "Tar bort en fil från staging area."
   }
