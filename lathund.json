@@ -1,0 +1,6 @@
+[
+  {
+    "command": "git init",
+    "description": "Initierar ett nytt Git-repository i aktuell mapp."
+  },
+  
