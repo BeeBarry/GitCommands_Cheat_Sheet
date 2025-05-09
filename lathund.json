@@ -2,4 +2,8 @@
   {
     "command": "git remote -v",
     "description": "Visar kopplade fjärrrepositoryn."
+  },
+  {
+    "command": "git remote add origin <url>",
+    "description": "Lägger till ett fjärrrepository som heter 'origin'."
   }
