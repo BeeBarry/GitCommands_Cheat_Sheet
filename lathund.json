@@ -37,4 +37,8 @@
   },{
     "command": "git fetch",
     "description": "Hämtar uppdateringar från fjärrrepositoryt utan att slå ihop dem."
+  },
+  {
+    "command": "git show",
+    "description": "Visar detaljerad information om en commit eller annan Git-objekt."
   }
