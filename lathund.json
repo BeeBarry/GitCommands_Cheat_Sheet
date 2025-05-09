@@ -10,4 +10,8 @@
   {
     "command": "git reset <fil>",
     "description": "Tar bort en fil från staging area."
+  },
+  {
+    "command": "git reset --hard",
+    "description": "Återställer allt till senaste commit, inklusive arbetskopia."
   }
