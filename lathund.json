@@ -30,4 +30,8 @@
   {
     "command": "git tag",
     "description": "Visar alla taggar i repositoryt."
+  },
+  {
+    "command": "git tag <tag>",
+    "description": "Skapar en ny tagg för nuvarande commit."
   }
