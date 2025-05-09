@@ -7,4 +7,7 @@
     "command": "git clone <url>",
     "description": "Klonar ett existerande Git-repository från t.ex. GitHub."
   },
-  
+  {
+    "command": "git status",
+    "description": "Visar status för förändrade, staged och ostaged filer."
+  },
