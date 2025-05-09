@@ -11,3 +11,8 @@
     "command": "git status",
     "description": "Visar status för förändrade, staged och ostaged filer."
   },
+  {
+    "command": "git add <fil>",
+    "description": "Lägger till en fil till staging area inför commit."
+  },
+ 
