@@ -1,0 +1,121 @@
+[
+  {
+    "command": "git init",
+    "description": "Initierar ett nytt Git-repository i aktuell mapp."
+  },
+  {
+    "command": "git clone <url>",
+    "description": "Klonar ett existerande Git-repository från t.ex. GitHub."
+  },
+  {
+    "command": "git status",
+    "description": "Visar status för förändrade, staged och ostaged filer."
+  },
+  {
+    "command": "git add <fil>",
+    "description": "Lägger till en fil till staging area inför commit."
+  },
+  {
+    "command": "git add .",
+    "description": "Lägger till alla ändrade filer till staging area."
+  },
+  {
+    "command": "git commit -m \"meddelande\"",
+    "description": "Skapar en commit med ett meddelande."
+  },
+  {
+    "command": "git log",
+    "description": "Visar historik över commits i projektet."
+  },
+  {
+    "command": "git diff",
+    "description": "Visar skillnader mellan arbetskopia och staging eller senaste commit."
+  },
+  {
+    "command": "git branch",
+    "description": "Visar alla lokala brancher."
+  },
+  {
+    "command": "git branch <namn>",
+    "description": "Skapar en ny branch med angivet namn."
+  },
+  {
+    "command": "git checkout <branch>",
+    "description": "Byter till angiven branch."
+  },
+  {
+    "command": "git checkout -b <namn>",
+    "description": "Skapar och byter till en ny branch direkt."
+  },
+  {
+    "command": "git merge <branch>",
+    "description": "Slår ihop en annan branch med aktuell branch."
+  },
+  {
+    "command": "git pull",
+    "description": "Hämtar och slår ihop ändringar från fjärrrepositoryt."
+  },
+  {
+    "command": "git push",
+    "description": "Skickar lokala commits till fjärrrepositoryt."
+  },
+  {
+    "command": "git remote -v",
+    "description": "Visar kopplade fjärrrepositoryn."
+  },
+  {
+    "command": "git remote add origin <url>",
+    "description": "Lägger till ett fjärrrepository som heter 'origin'."
+  },
+  {
+    "command": "git reset <fil>",
+    "description": "Tar bort en fil från staging area."
+  },
+  {
+    "command": "git reset --hard",
+    "description": "Återställer allt till senaste commit, inklusive arbetskopia."
+  },
+  {
+    "command": "git rm <fil>",
+    "description": "Tar bort en fil från både Git och filsystemet."
+  },
+  {
+    "command": "git stash",
+    "description": "Sparar tillfälligt undan ändringar som inte är commitade."
+  },
+  {
+    "command": "git stash pop",
+    "description": "Återställer senaste undanlagda ändringar."
+  },
+  {
+    "command": "git tag",
+    "description": "Visar alla taggar i repositoryt."
+  },
+  {
+    "command": "git tag <tag>",
+    "description": "Skapar en ny tagg för nuvarande commit."
+  },{
+    "command": "git fetch",
+    "description": "Hämtar uppdateringar från fjärrrepositoryt utan att slå ihop dem."
+  },
+  {
+    "command": "git show",
+    "description": "Visar detaljerad information om en commit eller annan Git-objekt."
+  },
+  {
+    "command": "git cherry-pick <commit>",
+    "description": "Applicerar en specifik commit från en annan branch."
+  },
+  {
+    "command": "git revert <commit>",
+    "description": "Skapar en ny commit som backar en tidigare."
+  },
+  {
+    "command": "git blame <fil>",
+    "description": "Visar vem som gjorde varje radändring i en fil."
+  },
+  {
+    "command": "git config --global user.name \"namn\"",
+    "description": "Sätter globalt användarnamn för Git."
+  }
+]
